@@ -1,0 +1,4 @@
+interface:
+  display_name: "Real Estate Lead Qualifier"
+  short_description: "Qualify buyer, seller, and investor leads."
+  default_prompt: "Use $real-estate-lead-qualifier to qualify this real estate lead and recommend the next action."

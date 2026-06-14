@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate AI Skills Pack</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172018;
+        --muted: #5d675e;
+        --paper: #f6f0e4;
+        --panel: #fffaf0;
+        --accent: #2f6b45;
+        --gold: #d9a441;
+        --line: rgba(23, 32, 24, 0.16);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          radial-gradient(circle at 12% 15%, rgba(217, 164, 65, 0.28), transparent 28rem),
+          linear-gradient(135deg, #efe0bf 0%, #f8f2e8 46%, #dbe8d8 100%);
+        color: var(--ink);
+      }
+      main {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 28px;
+        align-items: stretch;
+      }
+      .card {
+        border: 1px solid var(--line);
+        background: rgba(255, 250, 240, 0.78);
+        backdrop-filter: blur(10px);
+        border-radius: 28px;
+        box-shadow: 0 24px 80px rgba(23, 32, 24, 0.12);
+        padding: 34px;
+      }
+      .eyebrow {
+        font: 700 12px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      h1 {
+        margin: 18px 0 18px;
+        font-size: clamp(44px, 7vw, 86px);
+        line-height: 0.88;
+        letter-spacing: -0.055em;
+      }
+      p {
+        color: var(--muted);
+        font-size: 19px;
+        line-height: 1.55;
+      }
+      .cta {
+        display: inline-flex;
+        margin-top: 18px;
+        padding: 15px 22px;
+        border-radius: 999px;
+        background: var(--ink);
+        color: white;
+        font: 700 14px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      .skill-list {
+        display: grid;
+        gap: 12px;
+        margin-top: 22px;
+      }
+      .skill {
+        display: grid;
+        grid-template-columns: 44px 1fr;
+        gap: 14px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.38);
+      }
+      .num {
+        display: grid;
+        place-items: center;
+        height: 44px;
+        border-radius: 14px;
+        background: var(--accent);
+        color: white;
+        font-weight: 700;
+      }
+      h2, h3 { margin: 0; }
+      .skill p { margin: 4px 0 0; font-size: 15px; }
+      .footer {
+        margin-top: 28px;
+        padding: 24px;
+        border-radius: 24px;
+        background: rgba(47, 107, 69, 0.1);
+        color: var(--ink);
+      }
+      @media (max-width: 820px) {
+        .hero { grid-template-columns: 1fr; }
+        main { padding: 28px 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="card">
+          <div class="eyebrow">Free AI Skills Pack</div>
+          <h1>Stop losing real estate leads.</h1>
+          <p>Seven practical AI skills for lead response, qualification, listing launches, open house follow-up, CRM cleanup, and AI receptionist scripts.</p>
+          <p>Use them in Claude Code or Codex. Built for operators who need workflows that can ship this week.</p>
+          <a class="cta" href="https://github.com/Ofunrein/real-estate-ai">Download on GitHub</a>
+        </div>
+        <div class="card">
+          <div class="eyebrow">Built by Lumenosis AI</div>
+          <h2>What this helps with</h2>
+          <div class="skill-list">
+            <div class="skill"><div class="num">1</div><div><h3>Lead leaks</h3><p>Find where response and routing break.</p></div></div>
+            <div class="skill"><div class="num">2</div><div><h3>Speed to lead</h3><p>Recover slow follow-up and stale inquiries.</p></div></div>
+            <div class="skill"><div class="num">3</div><div><h3>CRM clarity</h3><p>Segment messy contacts into action lists.</p></div></div>
+            <div class="skill"><div class="num">4</div><div><h3>Reception scripts</h3><p>Turn inbound demand into booked next steps.</p></div></div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        Want the installed version? Book a Lumenosis AI audit and we will map your lead flow, CRM, AI receptionist, and follow-up system.
+      </section>
+    </main>
+  </body>
+</html>
+

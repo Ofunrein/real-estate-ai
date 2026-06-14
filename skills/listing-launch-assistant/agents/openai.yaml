@@ -1,0 +1,4 @@
+interface:
+  display_name: "Listing Launch Assistant"
+  short_description: "Plan compliant listing launch workflows."
+  default_prompt: "Use $listing-launch-assistant to create a listing launch plan and follow-up checklist."

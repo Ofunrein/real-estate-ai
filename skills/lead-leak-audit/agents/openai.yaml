@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Leak Audit"
+  short_description: "Find where real estate leads are leaking."
+  default_prompt: "Use $lead-leak-audit to audit my real estate lead path and identify the first revenue leak."

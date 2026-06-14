@@ -1,0 +1,4 @@
+interface:
+  display_name: "Speed-to-Lead Recovery"
+  short_description: "Build fast follow-up for missed leads."
+  default_prompt: "Use $speed-to-lead-recovery to write a consent-aware recovery plan for stale real estate leads."
