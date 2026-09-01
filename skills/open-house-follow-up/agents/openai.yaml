@@ -1,4 +1,0 @@
-interface:
-  display_name: "Open House Follow-Up"
-  short_description: "Turn open house contacts into next actions."
-  default_prompt: "Use $open-house-follow-up to segment open house visitors and draft follow-up messages."

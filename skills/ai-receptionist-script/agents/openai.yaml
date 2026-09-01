@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Receptionist Script"
-  short_description: "Draft voice/SMS receptionist scripts."
-  default_prompt: "Use $ai-receptionist-script to draft a compliant AI receptionist script for my real estate business."

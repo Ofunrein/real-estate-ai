@@ -1,4 +1,0 @@
-interface:
-  display_name: "CRM Cleanup Segmenter"
-  short_description: "Clean and segment stale CRM contacts."
-  default_prompt: "Use $crm-cleanup-segmenter to organize this real estate CRM export into actionable segments."
